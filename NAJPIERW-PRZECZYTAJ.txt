@@ -1,4 +1,4 @@
-BIDROOM 1.1.1 — KOLEJNOŚĆ DLA MARCINA
+BIDROOM 1.1.1 — KOLEJNOŚĆ 
 
 1. Rozpakuj CAŁY projekt albo sklonuj Grodziu/Java-projects.
    Jeśli pobrałeś BidRoom-przekazanie-1.1.1.zip, rozpakuj także znajdujący
