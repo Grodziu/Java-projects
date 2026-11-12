@@ -4,7 +4,7 @@ Desktopowe aukcje w wirtualnych punktach: **Java 21, JavaFX, TCP/IP z TLS, Postg
 
 Autorzy: **Piotr Grodny, Marcin Gurdziel, Oliwia Jarosz**. „Programowanie w języku Java”, Informatyka w inżynierii komputerowej, 5. semestr, grupa P1, 2026/2027. Projekt studencki, nie oficjalna aplikacja Politechniki Krakowskiej.
 
-## Marcin — zacznij tutaj
+## M.G - Zacznij tutaj
 
 1. Pobierz **cały projekt**: `git clone https://github.com/Grodziu/Java-projects.git` lub **Code → Download ZIP**, potem rozpakuj. Nie pracuj wewnątrz ZIP.
 2. Przeczytaj [NAJPIERW-PRZECZYTAJ.txt](NAJPIERW-PRZECZYTAJ.txt). Na nowym Windows x64 uruchom **0-Przygotuj-projekt.cmd** — pobierze JDK/Maven/PostgreSQL, utworzy własną bazę i zbuduje kod. Potrzebny Internet przy pierwszym przygotowaniu.
