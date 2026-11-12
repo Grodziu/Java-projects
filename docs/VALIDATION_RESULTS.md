@@ -14,6 +14,8 @@
 
 **Dalszy odbiór Marcina:** rzeczywisty VPS, publiczny host/certyfikat, docelowy instalator i licytacja z różnych sieci. **Sprawozdanie końcowe: Oliwia.** Historyczne wyniki poniżej opisują wcześniejsze wersje; wcześniejsze zrzuty pozostają lokalnie, nie wszystkie są publikowane.
 
+Publikacja zakończona: [repozytorium](https://github.com/Grodziu/Java-projects) i [wydanie v1.1.1](https://github.com/Grodziu/Java-projects/releases/tag/v1.1.1). Pięć zasobów wydania (instalator, serwer, źródła, komplet przekazania i sumy) sprawdzono także przez publiczny odczyt API. SHA256 odpowiadają lokalnym plikom. [Zapis publikacji](validation/github-release-1.1.1.json). Tag i ZIP-y zawierają zweryfikowany commit kodu; późniejszy commit na main jedynie dokumentuje publikację i doprecyzowuje rozpakowanie paczki.
+
 ## Archiwum weryfikacji 1.0 i 1.1
 
 

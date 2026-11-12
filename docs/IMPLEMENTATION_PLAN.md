@@ -8,7 +8,7 @@ Stan 11.11.2026: **działająca implementacja lokalna**. Zaliczone punkty mają 
 - [x] Oddzielny start serwera i klienta z kontrolą gotowości TCP oraz czytelnym błędem braku serwera.
 - [x] Instrukcja kolejności plików, HANDOFF, mapa kodu i konfiguracje IntelliJ, pgAdmin/psql/diagram, gotowa wiadomość do Marcina.
 - [x] Testy 36/36 na PostgreSQL; czysty build; instalator 1.1.1 i paczka serwera, kontrola sekretów.
-- [ ] Publikacja kodu i paczek w zatwierdzonym publicznym Grodziu/Java-projects.
+- [x] Publikacja kodu i pięciu plików wydania w publicznym [Grodziu/Java-projects, v1.1.1](https://github.com/Grodziu/Java-projects/releases/tag/v1.1.1). Potwierdzono zgodność SHA256 wszystkich plików.
 - [ ] Odbiór Marcina na drugim Windows oraz wdrożenie i test różnych sieci.
 
 Sprawozdanie końcowe przejęła Oliwia; nie jest wykonywane w ramach tego przekazania. Dane autorów są już podane. Przygotowanie konfiguracji IntelliJ nie jest równoznaczne z wykonaniem pokazu w IDE.

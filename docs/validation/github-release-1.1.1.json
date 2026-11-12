@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-12",
+  "tag": "v1.1.1",
+  "assets": [
+    {
+      "name": "BidRoom-1.1.1.exe",
+      "bytes": 50358272,
+      "sha256": "2eb3887b26d12e4d5d3327314b808b2af0d26abb7f0c94a1a9c9603da9c1e964",
+      "url": "https://github.com/Grodziu/Java-projects/releases/download/v1.1.1/BidRoom-1.1.1.exe"
+    },
+    {
+      "name": "BidRoom-przekazanie-1.1.1.zip",
+      "bytes": 58683578,
+      "sha256": "d0403d157793fee8e81b7150bd03a255ba2be0e5b46bed1039dbd03a53a4d332",
+      "url": "https://github.com/Grodziu/Java-projects/releases/download/v1.1.1/BidRoom-przekazanie-1.1.1.zip"
+    },
+    {
+      "name": "BidRoom-serwer-1.1.1.zip",
+      "bytes": 4763812,
+      "sha256": "8ed0fabe794264a07ab1fa72329634c8eb01f601a76be71135d13a4add3d264e",
+      "url": "https://github.com/Grodziu/Java-projects/releases/download/v1.1.1/BidRoom-serwer-1.1.1.zip"
+    },
+    {
+      "name": "BidRoom-zrodla-1.1.1.zip",
+      "bytes": 4713787,
+      "sha256": "b92779b8c5b7a2105bd3df0aece71734cdbb7c38a221a5e51982e3aa3a5e9121",
+      "url": "https://github.com/Grodziu/Java-projects/releases/download/v1.1.1/BidRoom-zrodla-1.1.1.zip"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 366,
+      "sha256": "0d1f9c58117cd88bd8b7973447142fa4371ed53331ae1a56bb41edbc08bbdfa9",
+      "url": "https://github.com/Grodziu/Java-projects/releases/download/v1.1.1/SHA256SUMS.txt"
+    }
+  ],
+  "release": "https://github.com/Grodziu/Java-projects/releases/tag/v1.1.1",
+  "sourceCommit": "d380b62c636f3316eb363471818f052150b369e9",
+  "public": true,
+  "repository": "https://github.com/Grodziu/Java-projects"
+}

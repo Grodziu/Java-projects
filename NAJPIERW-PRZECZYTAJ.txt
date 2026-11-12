@@ -1,6 +1,8 @@
 BIDROOM 1.1.1 — KOLEJNOŚĆ DLA MARCINA
 
 1. Rozpakuj CAŁY projekt albo sklonuj Grodziu/Java-projects.
+   Jeśli pobrałeś BidRoom-przekazanie-1.1.1.zip, rozpakuj także znajdujący
+   się w nim BidRoom-zrodla-1.1.1.zip. Pliki CMD są w folderze BidRoom.
 2. Tylko pierwszy raz na danym Windows: 0-Przygotuj-projekt.cmd.
    Pobiera narzędzia, przygotowuje PostgreSQL i kompiluje kod.
 3. Każdego dnia: 1-Start-serwera.cmd. Poczekaj na SERWER GOTOWY.
