@@ -1,0 +1,13 @@
+{
+  "serverPeakWorkingSetMiB": 149.4,
+  "driverPeakWorkingSetMiB": 98.3,
+  "serverMeanCpuPercentOneCore": 39.06,
+  "sampleIntervalSeconds": 1,
+  "observedSeconds": 43.09,
+  "peakClients": 11.0,
+  "peakLiveAuctionTasks": 3.0,
+  "peakAuctionContexts": 3.0,
+  "sampledPeakBusyJdbcConnections": 2.0,
+  "configuredPoolMaximum": 4,
+  "instanceGuardConnections": 1
+}

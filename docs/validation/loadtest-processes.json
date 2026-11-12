@@ -1,0 +1,254 @@
+[
+  {
+    "time": "2026-11-10T18:44:44.1266408Z",
+    "serverWorkingSetBytes": 120958976,
+    "serverCpuSeconds": 5.328125,
+    "driverWorkingSetBytes": 2686976
+  },
+  {
+    "time": "2026-11-10T18:44:45.2333384Z",
+    "serverWorkingSetBytes": 137322496,
+    "serverCpuSeconds": 6.65625,
+    "driverWorkingSetBytes": 62119936
+  },
+  {
+    "time": "2026-11-10T18:44:46.2849839Z",
+    "serverWorkingSetBytes": 116248576,
+    "serverCpuSeconds": 7.046875,
+    "driverWorkingSetBytes": 80957440
+  },
+  {
+    "time": "2026-11-10T18:44:47.3577560Z",
+    "serverWorkingSetBytes": 124182528,
+    "serverCpuSeconds": 8.015625,
+    "driverWorkingSetBytes": 81022976
+  },
+  {
+    "time": "2026-11-10T18:44:48.3902733Z",
+    "serverWorkingSetBytes": 131121152,
+    "serverCpuSeconds": 9.203125,
+    "driverWorkingSetBytes": 82591744
+  },
+  {
+    "time": "2026-11-10T18:44:49.4303489Z",
+    "serverWorkingSetBytes": 131330048,
+    "serverCpuSeconds": 10.078125,
+    "driverWorkingSetBytes": 82870272
+  },
+  {
+    "time": "2026-11-10T18:44:50.4846966Z",
+    "serverWorkingSetBytes": 131543040,
+    "serverCpuSeconds": 11.015625,
+    "driverWorkingSetBytes": 79613952
+  },
+  {
+    "time": "2026-11-10T18:44:51.5254973Z",
+    "serverWorkingSetBytes": 126074880,
+    "serverCpuSeconds": 11.78125,
+    "driverWorkingSetBytes": 79740928
+  },
+  {
+    "time": "2026-11-10T18:44:52.5962701Z",
+    "serverWorkingSetBytes": 126173184,
+    "serverCpuSeconds": 12.703125,
+    "driverWorkingSetBytes": 81235968
+  },
+  {
+    "time": "2026-11-10T18:44:53.6484341Z",
+    "serverWorkingSetBytes": 127078400,
+    "serverCpuSeconds": 13.671875,
+    "driverWorkingSetBytes": 81235968
+  },
+  {
+    "time": "2026-11-10T18:44:54.7058627Z",
+    "serverWorkingSetBytes": 127217664,
+    "serverCpuSeconds": 14.65625,
+    "driverWorkingSetBytes": 79273984
+  },
+  {
+    "time": "2026-11-10T18:44:55.7630667Z",
+    "serverWorkingSetBytes": 128405504,
+    "serverCpuSeconds": 15.6875,
+    "driverWorkingSetBytes": 82194432
+  },
+  {
+    "time": "2026-11-10T18:44:56.7988624Z",
+    "serverWorkingSetBytes": 132276224,
+    "serverCpuSeconds": 16.640625,
+    "driverWorkingSetBytes": 84115456
+  },
+  {
+    "time": "2026-11-10T18:44:57.9394090Z",
+    "serverWorkingSetBytes": 135827456,
+    "serverCpuSeconds": 17.15625,
+    "driverWorkingSetBytes": 89534464
+  },
+  {
+    "time": "2026-11-10T18:44:58.9991130Z",
+    "serverWorkingSetBytes": 137302016,
+    "serverCpuSeconds": 17.359375,
+    "driverWorkingSetBytes": 90202112
+  },
+  {
+    "time": "2026-11-10T18:45:00.1088792Z",
+    "serverWorkingSetBytes": 137711616,
+    "serverCpuSeconds": 17.5625,
+    "driverWorkingSetBytes": 93085696
+  },
+  {
+    "time": "2026-11-10T18:45:01.1845682Z",
+    "serverWorkingSetBytes": 136196096,
+    "serverCpuSeconds": 17.703125,
+    "driverWorkingSetBytes": 93859840
+  },
+  {
+    "time": "2026-11-10T18:45:02.2211586Z",
+    "serverWorkingSetBytes": 136462336,
+    "serverCpuSeconds": 17.921875,
+    "driverWorkingSetBytes": 94031872
+  },
+  {
+    "time": "2026-11-10T18:45:03.2642848Z",
+    "serverWorkingSetBytes": 136847360,
+    "serverCpuSeconds": 18.03125,
+    "driverWorkingSetBytes": 94564352
+  },
+  {
+    "time": "2026-11-10T18:45:04.2999219Z",
+    "serverWorkingSetBytes": 136998912,
+    "serverCpuSeconds": 18.125,
+    "driverWorkingSetBytes": 94662656
+  },
+  {
+    "time": "2026-11-10T18:45:05.3431472Z",
+    "serverWorkingSetBytes": 140083200,
+    "serverCpuSeconds": 18.40625,
+    "driverWorkingSetBytes": 90624000
+  },
+  {
+    "time": "2026-11-10T18:45:06.3694312Z",
+    "serverWorkingSetBytes": 156635136,
+    "serverCpuSeconds": 18.765625,
+    "driverWorkingSetBytes": 91955200
+  },
+  {
+    "time": "2026-11-10T18:45:07.4457794Z",
+    "serverWorkingSetBytes": 151646208,
+    "serverCpuSeconds": 19.015625,
+    "driverWorkingSetBytes": 92188672
+  },
+  {
+    "time": "2026-11-10T18:45:08.4861241Z",
+    "serverWorkingSetBytes": 151945216,
+    "serverCpuSeconds": 19.1875,
+    "driverWorkingSetBytes": 92889088
+  },
+  {
+    "time": "2026-11-10T18:45:09.5280761Z",
+    "serverWorkingSetBytes": 152313856,
+    "serverCpuSeconds": 19.296875,
+    "driverWorkingSetBytes": 92061696
+  },
+  {
+    "time": "2026-11-10T18:45:10.5517111Z",
+    "serverWorkingSetBytes": 152858624,
+    "serverCpuSeconds": 19.40625,
+    "driverWorkingSetBytes": 92086272
+  },
+  {
+    "time": "2026-11-10T18:45:11.5759721Z",
+    "serverWorkingSetBytes": 138575872,
+    "serverCpuSeconds": 19.65625,
+    "driverWorkingSetBytes": 93954048
+  },
+  {
+    "time": "2026-11-10T18:45:12.6063229Z",
+    "serverWorkingSetBytes": 140029952,
+    "serverCpuSeconds": 19.75,
+    "driverWorkingSetBytes": 94089216
+  },
+  {
+    "time": "2026-11-10T18:45:13.6428986Z",
+    "serverWorkingSetBytes": 153100288,
+    "serverCpuSeconds": 20.03125,
+    "driverWorkingSetBytes": 94593024
+  },
+  {
+    "time": "2026-11-10T18:45:14.6889836Z",
+    "serverWorkingSetBytes": 153833472,
+    "serverCpuSeconds": 20.140625,
+    "driverWorkingSetBytes": 95076352
+  },
+  {
+    "time": "2026-11-10T18:45:15.7186619Z",
+    "serverWorkingSetBytes": 155049984,
+    "serverCpuSeconds": 20.3125,
+    "driverWorkingSetBytes": 90009600
+  },
+  {
+    "time": "2026-11-10T18:45:16.7612778Z",
+    "serverWorkingSetBytes": 136728576,
+    "serverCpuSeconds": 20.390625,
+    "driverWorkingSetBytes": 91947008
+  },
+  {
+    "time": "2026-11-10T18:45:17.7869142Z",
+    "serverWorkingSetBytes": 137895936,
+    "serverCpuSeconds": 20.4375,
+    "driverWorkingSetBytes": 92041216
+  },
+  {
+    "time": "2026-11-10T18:45:18.8238209Z",
+    "serverWorkingSetBytes": 145227776,
+    "serverCpuSeconds": 20.796875,
+    "driverWorkingSetBytes": 95375360
+  },
+  {
+    "time": "2026-11-10T18:45:19.8653948Z",
+    "serverWorkingSetBytes": 146862080,
+    "serverCpuSeconds": 21.03125,
+    "driverWorkingSetBytes": 91561984
+  },
+  {
+    "time": "2026-11-10T18:45:20.9404869Z",
+    "serverWorkingSetBytes": 140808192,
+    "serverCpuSeconds": 21.265625,
+    "driverWorkingSetBytes": 91754496
+  },
+  {
+    "time": "2026-11-10T18:45:21.9997251Z",
+    "serverWorkingSetBytes": 144498688,
+    "serverCpuSeconds": 21.453125,
+    "driverWorkingSetBytes": 93892608
+  },
+  {
+    "time": "2026-11-10T18:45:23.0598945Z",
+    "serverWorkingSetBytes": 144588800,
+    "serverCpuSeconds": 21.578125,
+    "driverWorkingSetBytes": 94019584
+  },
+  {
+    "time": "2026-11-10T18:45:24.1056161Z",
+    "serverWorkingSetBytes": 152330240,
+    "serverCpuSeconds": 21.859375,
+    "driverWorkingSetBytes": 94064640
+  },
+  {
+    "time": "2026-11-10T18:45:25.1349464Z",
+    "serverWorkingSetBytes": 152752128,
+    "serverCpuSeconds": 21.953125,
+    "driverWorkingSetBytes": 90542080
+  },
+  {
+    "time": "2026-11-10T18:45:26.1756092Z",
+    "serverWorkingSetBytes": 140865536,
+    "serverCpuSeconds": 22.09375,
+    "driverWorkingSetBytes": 93999104
+  },
+  {
+    "time": "2026-11-10T18:45:27.2121809Z",
+    "serverWorkingSetBytes": 141733888,
+    "serverCpuSeconds": 22.15625,
+    "driverWorkingSetBytes": 103124992
+  }
+]

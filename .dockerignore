@@ -1,0 +1,6 @@
+**
+!server/
+!server/target/
+!server/target/server-*.jar
+!deploy/
+!deploy/Dockerfile

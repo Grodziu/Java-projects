@@ -1,0 +1,101 @@
+.root { -fx-font-family: "Segoe UI"; -fx-font-size: 14px; -fx-text-fill: #14243A; -fx-background-color: #F6F5FA; }
+.label { -fx-text-fill: #14243A; }
+.sidebar { -fx-background-color: #003571; -fx-padding: 32 20 24 20; }
+.sidebar-scroll, .sidebar-scroll > .viewport { -fx-background-color: #003571; -fx-padding: 0; -fx-border-width: 0; }
+.brand { -fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: white; }
+.eyebrow-light { -fx-text-fill: #B3D6ED; -fx-font-size: 10px; -fx-font-weight: bold; }
+.sidebar-note { -fx-text-fill: #CDDBEA; -fx-font-size: 11px; }
+.button { -fx-background-color: #003571; -fx-text-fill: white; -fx-padding: 10 18; -fx-background-radius: 7; -fx-cursor: hand; -fx-font-weight: bold; }
+.button:hover { -fx-background-color: #14528D; }
+.button:focused { -fx-effect: dropshadow(gaussian, #007FAE, 5, 0.4, 0, 0); }
+.button:disabled { -fx-opacity: 0.55; }
+.nav { -fx-background-color: transparent; -fx-alignment: CENTER_LEFT; -fx-text-fill: #F0F6FC; -fx-padding: 12 14; -fx-font-weight: normal; }
+.nav:hover { -fx-background-color: #20578C; }
+.secondary { -fx-background-color: #E9EFF6; -fx-text-fill: #003571; }
+.secondary:hover { -fx-background-color: #D8E5F2; }
+.danger { -fx-background-color: #A52A35; }
+.topbar { -fx-padding: 20 28 12 28; -fx-background-color: white; -fx-border-color: transparent transparent #DFE6EF transparent; }
+.screen-title { -fx-font-size: 21px; -fx-font-weight: bold; }
+.connection { -fx-text-fill: #187447; -fx-font-size: 12px; }
+.notice { -fx-text-fill: #516176; -fx-font-size: 13px; }
+.content-scroll, .content-scroll > .viewport { -fx-background-color: #F3F6FA; }
+.content { -fx-padding: 28; }
+.card { -fx-background-color: white; -fx-background-radius: 12; -fx-padding: 24; -fx-border-color: #E1E8F1; -fx-border-radius: 12; }
+.card-title { -fx-font-size: 20px; -fx-font-weight: bold; }
+.subtitle { -fx-text-fill: #516176; -fx-font-size: 13px; }
+.eyebrow { -fx-text-fill: #007FAE; -fx-font-size: 11px; -fx-font-weight: bold; }
+.price { -fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: #003571; }
+.timer { -fx-font-size: 24px; -fx-font-weight: bold; }
+.success { -fx-text-fill: #187447; }
+.warning { -fx-text-fill: #A44713; }
+.error { -fx-text-fill: #A52A35; }
+.hero { -fx-background-color: #003571; -fx-background-radius: 12; -fx-padding: 42; }
+.hero-title { -fx-text-fill: white; -fx-font-size: 38px; -fx-font-weight: bold; }
+.hero-copy { -fx-text-fill: #D8E6F5; -fx-font-size: 16px; }
+.form-label { -fx-text-fill: #516176; -fx-font-size: 12px; -fx-font-weight: bold; }
+.text-field, .text-area, .combo-box-base, .date-picker { -fx-background-color: white; -fx-border-color: #C5D2E1; -fx-border-radius: 6; -fx-background-radius: 6; -fx-padding: 9; }
+.text-field:focused, .text-area:focused { -fx-border-color: #007FAE; }
+.table-view { -fx-background-color: white; -fx-border-color: #E1E8F1; -fx-border-radius: 8; -fx-selection-bar: #DDECF9; -fx-selection-bar-text: #14243A; }
+.table-view .column-header-background, .table-view .column-header, .table-view .filler { -fx-background-color: #EDE6F4; }
+.table-view .column-header { -fx-padding: 9 4; }
+.table-cell { -fx-padding: 10 8; -fx-text-fill: #14243A; }
+.table-row-cell:odd { -fx-background-color: #F8FAFD; }
+.table-row-cell:selected { -fx-background-color: #DDECF9; }
+.dialog-pane { -fx-background-color: #F3F6FA; }
+.separator .line { -fx-border-color: #DCE5EF; }
+.content-scroll, .content-scroll > .viewport { -fx-background-color: #F6F5FA; }
+.brand-artwork { -fx-background-radius: 8; }
+.spectrum { -fx-background-color: linear-gradient(to right, #0099D8 0%, #0099D8 17%, #72AE20 17%, #72AE20 34%, #EE901A 34%, #EE901A 51%, #8A3E90 51%, #8A3E90 68%, #D42B78 68%, #D42B78 85%, #009A98 85%, #009A98 100%); }
+.catalog-banner { -fx-background-color: #142B53; -fx-background-radius: 12; -fx-padding: 20 24; -fx-alignment: center-left; }
+.catalog-banner .subtitle { -fx-text-fill: #DCE8F6; }
+.banner-title { -fx-font-size: 25px; -fx-font-weight: bold; -fx-text-fill: white; }
+.category-ELECTRONICS { -fx-border-color: #0099D8 #E1E8F1 #E1E8F1 #E1E8F1; -fx-border-width: 5 1 1 1; }
+.category-BOOKS { -fx-border-color: #72AE20 #E1E8F1 #E1E8F1 #E1E8F1; -fx-border-width: 5 1 1 1; }
+.category-ACCESSORIES { -fx-border-color: #D42B78 #E1E8F1 #E1E8F1 #E1E8F1; -fx-border-width: 5 1 1 1; }
+.category-OTHER { -fx-border-color: #EE901A #E1E8F1 #E1E8F1 #E1E8F1; -fx-border-width: 5 1 1 1; }
+.sidebar .nav { -fx-border-width: 0 0 0 3; -fx-border-color: #0099D8; -fx-background-radius: 0 6 6 0; }
+.metric { -fx-background-color: white; -fx-background-radius: 8; -fx-border-radius: 8; -fx-padding: 18; }
+.metric-value { -fx-font-size: 29px; -fx-font-weight: bold; -fx-text-fill: #593176; }
+.photo-note { -fx-font-size: 10px; -fx-text-fill: #516176; }
+.table-row-cell:empty { -fx-background-color: white; }
+.table-row-cell:empty .table-cell { -fx-border-width: 0; }
+.table-cell { -fx-alignment: center-left; }
+.check-box { -fx-text-fill: #516176; }
+.sidebar, .sidebar-scroll, .sidebar-scroll > .viewport { -fx-background-color: #FFFFFF; }
+.sidebar { -fx-border-color: transparent #E6E3ED transparent transparent; }
+.brand { -fx-text-fill: #003571; }
+.eyebrow-light { -fx-text-fill: #76849B; }
+.hero .eyebrow-light { -fx-text-fill: #B3D6ED; }
+.sidebar-note { -fx-text-fill: #617085; }
+.sidebar .nav { -fx-text-fill: #0076AA; -fx-background-color: #E8F5FC; -fx-font-weight: bold; }
+.sidebar .nav:hover { -fx-opacity: 0.8; }
+.sidebar .nav-scheduled { -fx-border-color: #72AE20; -fx-text-fill: #46741A; -fx-background-color: #F0F7E6; }
+.sidebar .nav-mine { -fx-border-color: #EE901A; -fx-text-fill: #945500; -fx-background-color: #FFF1DE; }
+.sidebar .nav-history { -fx-border-color: #8A3E90; -fx-text-fill: #78347E; -fx-background-color: #F0E4F4; }
+.sidebar .nav-admin { -fx-border-color: #D42B78; -fx-text-fill: #AD205F; -fx-background-color: #FCE5F0; }
+.catalog-banner { -fx-background-color: #EEE5F4; }
+.catalog-banner .banner-title { -fx-text-fill: #593176; }
+.catalog-banner .subtitle { -fx-text-fill: #66506F; }
+.button { -fx-background-color: #753B88; }
+.button:hover { -fx-background-color: #8A4E9E; }
+.secondary { -fx-background-color: #EDE8F3; -fx-text-fill: #593176; }
+.secondary:hover { -fx-background-color: #E2D6EE; }
+.danger { -fx-background-color: #A52A35; }
+#bidSubmit { -fx-background-color: #CC2672; }
+#bidSubmit:hover { -fx-background-color: #B31F63; }
+.category-BOOKS .price { -fx-text-fill: #4F801D; }
+.category-ACCESSORIES .price { -fx-text-fill: #B62366; }
+.category-OTHER .price { -fx-text-fill: #A85F00; }
+.category-ELECTRONICS .price { -fx-text-fill: #007EB5; }
+.sidebar { -fx-padding: 18 16; }
+.sidebar .nav { -fx-padding: 10 12; -fx-min-width: 0; }
+.content { -fx-padding: 24; }
+.hero { -fx-padding: 24; }
+.hero-title { -fx-font-size: 32px; }
+.hero-copy { -fx-font-size: 13px; }
+.team-names { -fx-text-fill: white; -fx-font-size: 12px; -fx-font-weight: bold; }
+.project-course { -fx-text-fill: #91DDF8; -fx-font-size: 12px; -fx-font-weight: bold; }
+.project-meta { -fx-text-fill: #D8E6F5; -fx-font-size: 11px; }
+.login-form { -fx-border-color: #8A3E90 #E1E8F1 #E1E8F1 #E1E8F1; -fx-border-width: 5 1 1 1; }
+.catalog-banner { -fx-border-color: transparent transparent #D42B78 transparent; -fx-border-width: 0 0 3 0; -fx-border-radius: 12; }
+.connection { -fx-text-alignment: right; }

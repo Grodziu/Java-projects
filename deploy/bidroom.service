@@ -1,0 +1,23 @@
+[Unit]
+Description=BidRoom auction server
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=bidroom
+Group=bidroom
+EnvironmentFile=/etc/bidroom/server.env
+WorkingDirectory=/var/lib/bidroom
+ExecStart=/opt/bidroom/jdk/bin/java -Xms64m -Xmx256m -Dfile.encoding=UTF-8 -jar /opt/bidroom/server-1.1.1.jar
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/bidroom
+
+[Install]
+WantedBy=multi-user.target

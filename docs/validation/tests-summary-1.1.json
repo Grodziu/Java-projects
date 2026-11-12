@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-11-11T21:45:10.240391+00:00",
+  "command": "Maven integration verify + final 1.1.0 package",
+  "suites": [
+    {
+      "name": "pl.edu.bidroom.client.PendingBidsTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 1.49
+    },
+    {
+      "name": "pl.edu.bidroom.common.FrameCodecTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 1.009
+    },
+    {
+      "name": "pl.edu.bidroom.server.BidPolicyTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.26
+    },
+    {
+      "name": "pl.edu.bidroom.server.transport.SlowReceiverTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.857
+    },
+    {
+      "name": "pl.edu.bidroom.server.ServerIT",
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 163.021
+    },
+    {
+      "name": "pl.edu.bidroom.server.TlsIT",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 15.439
+    }
+  ],
+  "tests": 34,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0
+}

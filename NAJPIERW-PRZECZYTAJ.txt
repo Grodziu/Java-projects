@@ -1,0 +1,33 @@
+BIDROOM 1.1.1 — KOLEJNOŚĆ DLA MARCINA
+
+1. Rozpakuj CAŁY projekt albo sklonuj Grodziu/Java-projects.
+2. Tylko pierwszy raz na danym Windows: 0-Przygotuj-projekt.cmd.
+   Pobiera narzędzia, przygotowuje PostgreSQL i kompiluje kod.
+3. Każdego dnia: 1-Start-serwera.cmd. Poczekaj na SERWER GOTOWY.
+   Uruchamia samą bazę i serwer — okno aplikacji jeszcze się nie otwiera.
+4. Dopiero teraz: 2-Start-klienta.cmd (albo zainstalowany lokalny BidRoom).
+5. Po pracy: zamknij klienta, następnie Stop-BidRoom.cmd.
+
+BidRoom.cmd zachowuje dawny skrót: baza + serwer + klient naraz.
+Nie uruchamiaj dwóch serwerów na tej samej bazie (np. CMD i IntelliJ jednocześnie).
+
+KONTO: zarejestruj własne przez aplikację. Administrator: login administrator;
+jego losowe hasło odczytaj lokalnie z USERPROFILE/BidRoomData/server-secrets.json,
+pole BIDROOM_BOOTSTRAP_ADMIN_PASSWORD (cała wartość, także końcowy znak =).
+Nie publikuj ani nie wysyłaj tego pliku uczestnikom.
+
+KOD: otwórz główny pom.xml w IntelliJ jako projekt Maven, ustaw JDK 21.
+Dokładnie: docs/INTELLIJ.md. Kod zmieniamy w common/server/client/loadtest.
+Po zmianach: scripts/build-project.ps1, potem restart serwera/klienta.
+
+BAZA: Baza-BidRoom.cmd otwiera psql. Schemat-bazy.cmd pokazuje diagram.
+pgAdmin i rekordy: docs/POSTGRESQL.md. Baza i zdjęcia są po stronie serwera.
+
+WDROŻENIE: docs/HANDOFF.md, następnie docs/DEPLOYMENT.md.
+Komputery NIE muszą być w jednej sieci. Muszą osiągać jeden serwer TCP/TLS.
+Do pokazu przez Internet przygotowany jest wariant VPS. Nikt jeszcze go nie kupił.
+Lokalny instalator łączy się z własnym komputerem, nie z komputerem Piotra.
+Po wdrożeniu budujesz instalator z adresem serwera i przekazujesz go uczestnikom.
+
+Sprawozdanie końcowe: Oliwia. Kod i wdrożenie: kontynuacja przez Marcina.
+Pełny stan wykonanych testów: docs/VALIDATION_RESULTS.md.

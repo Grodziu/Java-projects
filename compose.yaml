@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:17.11
+    environment:
+      POSTGRES_DB: bidroom_dev
+      POSTGRES_USER: bidroom
+      POSTGRES_PASSWORD: ${BIDROOM_DB_PASSWORD:?Ustaw sekret bazy}
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - bidroom-data:/var/lib/postgresql/data
+    command: ["postgres", "-c", "shared_buffers=64MB", "-c", "max_connections=20"]
+    mem_limit: 512m
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bidroom -d bidroom_dev"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+volumes:
+  bidroom-data:

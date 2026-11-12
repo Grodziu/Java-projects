@@ -1,0 +1,48 @@
+services:
+  postgres:
+    image: postgres:17.11
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_DB: bidroom
+      POSTGRES_PASSWORD: ${BIDROOM_POSTGRES_ADMIN_PASSWORD:?Ustaw sekret administratora PostgreSQL}
+      BIDROOM_DB_PASSWORD: ${BIDROOM_DB_PASSWORD:?Ustaw osobny sekret roli aplikacji}
+    volumes:
+      - production-db:/var/lib/postgresql/data
+      - ./init-db.sh:/docker-entrypoint-initdb.d/01-bidroom.sh:ro
+    command: ["postgres", "-c", "shared_buffers=64MB", "-c", "max_connections=20"]
+    mem_limit: 512m
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d bidroom"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+  server:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    env_file:
+      - ${BIDROOM_SERVER_ENV_FILE:?Wskaż prywatny plik server.env}
+    environment:
+      BIDROOM_PROFILE: production
+      BIDROOM_BIND_HOST: 0.0.0.0
+      BIDROOM_PORT: 5001
+      BIDROOM_TLS_REQUIRED: 'true'
+      BIDROOM_TLS_KEYSTORE: /tls/server.p12
+      BIDROOM_DB_URL: jdbc:postgresql://postgres:5432/bidroom
+      BIDROOM_DB_USER: bidroom
+      BIDROOM_DB_PASSWORD: ${BIDROOM_DB_PASSWORD:?Ustaw sekret aplikacji}
+      BIDROOM_DATA_DIR: /var/lib/bidroom
+    volumes:
+      - production-state:/var/lib/bidroom
+      - ${BIDROOM_TLS_CERT_DIR:?Wskaż prywatny katalog z server.p12}:/tls:ro
+    ports:
+      - '${BIDROOM_PUBLIC_PORT:-5001}:5001'
+    depends_on:
+      postgres:
+        condition: service_healthy
+    mem_limit: 384m
+    restart: unless-stopped
+volumes:
+  production-db:
+  production-state:

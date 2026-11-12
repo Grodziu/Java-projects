@@ -1,0 +1,15 @@
+{
+  "pathOnlySystem32AtLaunch": true,
+  "javaHomeUnsetAtLaunch": true,
+  "pid": 1592,
+  "installExitCode": 0,
+  "timestamp": "2026-11-11T21:44:34.0369098Z",
+  "sha256": "4E5DC33D05E1BADA9F8D2676E57675E8E67777BA1F4CC7C6482AC9DBF2201862",
+  "bytes": 50354176,
+  "result": "Zaktualizowany klient 1.1.0 działa z dołączonym runtime, ikoną PK i połączeniem z lokalnym serwerem. Czysty/drugi Windows niezweryfikowany.",
+  "bundledJvmObserved": true,
+  "launcherChildVerified": true,
+  "nativeWindowVerified": true,
+  "connectedStateObserved": true,
+  "pkIconObserved": true
+}

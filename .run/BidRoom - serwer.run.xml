@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="1. BidRoom - serwer" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="pl.edu.bidroom.server.ServerMain" />
+    <module name="server" />
+    <option name="VM_PARAMETERS" value="-Xms64m -Xmx256m -Dfile.encoding=UTF-8 -Dbidroom.config=local" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2"><option name="Make" enabled="true" /></method>
+  </configuration>
+</component>

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-11-11T07:50:11.6180604Z",
+  "developerHome": "USERPROFILE/BidRoomData",
+  "windowsPowerShellStartVerified": true,
+  "localScriptPolicy": "RemoteSigned, tylko nowe procesy testowe",
+  "dataPreserved": true,
+  "globalConfigurationChanged": false,
+  "cmdLauncherStartVerified": true,
+  "cmdLauncherStopVerified": true,
+  "servicesStoppedAfterTests": true,
+  "testClientsStopped": true
+}

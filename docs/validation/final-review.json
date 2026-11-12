@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-11-11T08:49:24.988739+01:00",
+  "localMarkdownLinksChecked": 64,
+  "brokenLocalLinks": 0,
+  "tests": 29,
+  "installerSha256MatchesTestedPackage": true,
+  "installedClientEntriesEqualCurrentBuild": {
+    "client-1.0.0.jar": 12,
+    "common-1.0.0.jar": 22
+  },
+  "sourceFilesHashed": 81,
+  "sourceManifestSha256": "bbc08c5206eefd7155a1987a55c9f85014daaf69f99c1a9a4869b302c530c907",
+  "reportSha256": "aeaeb5c90194c6a70d6eac321ba1f5200fd4f7e776fdb54e8683d95c65a5794a",
+  "reportPagesVisuallyReviewed": 9,
+  "ownTestProcessesStopped": true,
+  "ports5001And55432Released": true
+}

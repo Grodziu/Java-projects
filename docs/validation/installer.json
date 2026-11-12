@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-11-11T07:06:14.3111535Z",
+  "sha256": "FF676C97D109BB36CA1CB43A862495BF80527D1452D167B41B799D2E2E23484F",
+  "bytes": 49739776,
+  "installExitCode": 0,
+  "javaHomeUnsetAtLaunch": true,
+  "pathOnlySystem32AtLaunch": true,
+  "bundledJvmObserved": true,
+  "launcherChildVerified": true,
+  "result": "Zainstalowany klient działa z dołączonym runtime, bez JAVA_HOME i Javy na PATH. Czysty Windows niezweryfikowany.",
+  "nativeWindowVerified": true,
+  "connectedStateObserved": true,
+  "shortcutVerified": true,
+  "finalUninstallReinstallVerified": true
+}

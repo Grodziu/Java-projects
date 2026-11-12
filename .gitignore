@@ -1,0 +1,27 @@
+**/target/
+.tools/
+tmp/
+dist/
+*.log
+.env
+*.local.*
+.idea/
+*.iml
+!*.example.*
+
+# Private state, local evidence and historical report draft (Oliwia completes the report).
+*.dump
+*.backup
+*.p12
+*.jks
+*.key
+server-secrets.json
+server.env
+*.env
+!*.env.example
+output/
+docs/SPRAWOZDANIE.md
+docs/reference/manifest.json
+docs/reference/lectures/
+docs/screenshots/
+docs/screenshots-1.1/

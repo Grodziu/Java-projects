@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-11-10T18:52:41.8493203Z",
+  "source": {
+    "users": 11,
+    "auctions": 9,
+    "bids": 3,
+    "results": "1814cdc77e0ca59e94d74a724d0ca20b"
+  },
+  "restored": {
+    "users": 11,
+    "auctions": 9,
+    "bids": 3,
+    "results": "1814cdc77e0ca59e94d74a724d0ca20b"
+  },
+  "equal": true,
+  "backupBytes": 41494
+}

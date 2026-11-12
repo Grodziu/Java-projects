@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import pl.edu.bidroom.client.ui.BrandArtwork?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.bidroom.client.ui.MainController" fx:id="root" styleClass="app-root">
+  <left><ScrollPane fx:id="sidebarPane" fitToWidth="true" hbarPolicy="NEVER" minWidth="210" prefWidth="210" maxWidth="210" styleClass="sidebar-scroll"><content><VBox fx:id="sidebar" spacing="8" styleClass="sidebar">
+    <Label text="BidRoom" styleClass="brand"/>
+    <Label text="PRZESTRZEŃ AUKCJI" styleClass="eyebrow-light"/>
+    <Region prefHeight="8"/>
+    <Button text="Aukcje" onAction="#activeCatalog" maxWidth="Infinity" styleClass="nav"/>
+    <Button text="Zaplanowane" onAction="#scheduledCatalog" maxWidth="Infinity" styleClass="nav,nav-scheduled"/>
+    <Button text="Moje aukcje" onAction="#myCatalog" maxWidth="Infinity" styleClass="nav,nav-mine"/>
+    <Button text="Historia" onAction="#historyCatalog" maxWidth="Infinity" styleClass="nav,nav-history"/>
+    <Button fx:id="adminNav" text="Administracja" onAction="#administration" maxWidth="Infinity" styleClass="nav,nav-admin"/>
+    <Region VBox.vgrow="ALWAYS"/>
+    <BrandArtwork prefHeight="90" minHeight="70" maxHeight="90"/>
+    <Label text="Projekt studencki" styleClass="sidebar-note"/>
+    <Label text="Politechnika Krakowska" wrapText="true" styleClass="sidebar-note"/>
+  </VBox></content></ScrollPane></left>
+  <top><VBox styleClass="topbar" spacing="10"><Region prefHeight="5" minHeight="5" styleClass="spectrum"/><HBox alignment="CENTER_LEFT" spacing="18">
+    <VBox spacing="6" HBox.hgrow="ALWAYS" minWidth="180">
+      <Label fx:id="screenTitle" text="Witaj w BidRoom" wrapText="true" styleClass="screen-title"/>
+      <Label fx:id="message" text=" " wrapText="true" minHeight="18" styleClass="notice"/>
+    </VBox>
+    <VBox alignment="CENTER_RIGHT" spacing="6" minWidth="220">
+      <Label fx:id="userName" maxWidth="300"/>
+      <HBox alignment="CENTER_RIGHT" spacing="10">
+        <Label fx:id="connectionLabel" text="Łączenie…" wrapText="true" maxWidth="230" minWidth="90" styleClass="connection"/>
+        <Button fx:id="retryButton" text="Ponów" onAction="#retry" styleClass="secondary" minWidth="76"/>
+        <Button fx:id="logoutButton" text="Wyloguj" onAction="#logout" styleClass="secondary" minWidth="85"/>
+      </HBox>
+    </VBox>
+  </HBox></VBox></top>
+  <center><ScrollPane fx:id="scroll" fitToWidth="true" pannable="false" hbarPolicy="NEVER" styleClass="content-scroll"><content><VBox fx:id="content" spacing="20" styleClass="content"/></content></ScrollPane></center>
+</BorderPane>

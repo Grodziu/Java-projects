@@ -1,0 +1,68 @@
+{
+  "version": "1.1.1",
+  "suites": [
+    {
+      "name": "pl.edu.bidroom.common.FrameCodecTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.653
+    },
+    {
+      "name": "pl.edu.bidroom.server.BidPolicyTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.22
+    },
+    {
+      "name": "pl.edu.bidroom.server.ServerConfigTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.355
+    },
+    {
+      "name": "pl.edu.bidroom.server.transport.SlowReceiverTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.183
+    },
+    {
+      "name": "pl.edu.bidroom.server.ServerIT",
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 115.331
+    },
+    {
+      "name": "pl.edu.bidroom.server.TlsIT",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 10.479
+    },
+    {
+      "name": "pl.edu.bidroom.client.PendingBidsTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 1.071
+    }
+  ],
+  "database": "PostgreSQL 17.11, bidroom_test",
+  "failures": 0.0,
+  "tests": 36.0,
+  "skipped": 0.0,
+  "command": "scripts/test.ps1 -Integration",
+  "errors": 0.0,
+  "date": "2026-11-12"
+}

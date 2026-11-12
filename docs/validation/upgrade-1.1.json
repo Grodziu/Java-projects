@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-11",
+  "version": "1.1.0",
+  "isolatedRestore": {"database": "bidroom_upgrade_check2", "users": 34, "auctions": 31, "bids": 8, "fingerprintsPreserved": true},
+  "localMigration": {"database": "bidroom_dev", "users": 34, "auctions": 32, "bids": 8, "fingerprintsPreserved": true},
+  "compared": ["accounts and password hashes", "auctions and owner/leader relationships", "bids", "auction audit", "request IDs and HMAC digests", "saved bid amount and deadline"],
+  "automaticReports": {"terminalAuctions": 32, "reports": 32, "reportGeneratedLogEntries": 32},
+  "administratorLoginVerified": true,
+  "publicDeploymentVerified": false
+}

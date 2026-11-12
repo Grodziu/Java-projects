@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-11-11T07:43:45.6656446Z",
+  "command": "./scripts/test.ps1 -Integration",
+  "tests": 29,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "suites": [
+    {
+      "name": "pl.edu.bidroom.common.FrameCodecTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 1.388,
+      "cases": [
+        "fragmentedAndCoalescedUtf8Frames",
+        "malformedDeepAndDuplicateJsonRejected",
+        "invalidLengthsAndTruncatedFramesFailBeforeAllocation"
+      ]
+    },
+    {
+      "name": "pl.edu.bidroom.server.BidPolicyTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.284,
+      "cases": [
+        "priceAndOwnershipRules",
+        "exactExtensionBoundariesAndNoRounding"
+      ]
+    },
+    {
+      "name": "pl.edu.bidroom.server.transport.SlowReceiverTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 0.854,
+      "cases": [
+        "fullOutboundBudgetDisconnectsOnlySlowReceiverAndReleasesMemory"
+      ]
+    },
+    {
+      "name": "pl.edu.bidroom.server.ServerIT",
+      "tests": 20,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 81.282,
+      "cases": [
+        "secondServerRejectedAndMalformedSocketReleasesCapacity",
+        "lostJdbcCommitAcknowledgementStopsServerAndReplayRecoversOneBid",
+        "accountBlockRevokesSessionAndLastAdminIsProtected",
+        "duplicateAcrossSocketsAndAfterRestartHasOneEffect",
+        "scheduledAndEmptyAuctionsFinishOnceAndReleaseCapacity",
+        "concurrentAdminBlocksCannotRemoveLastAdmin",
+        "lossOfInstanceLockStopsServiceAndRestartReconciles",
+        "logoutAndIdleExpiryInvalidateTokens",
+        "largeReportUsesBoundedChunksAndExpiredHandleIsRejected",
+        "bidAndDeadlineUseFreshProtectedClock",
+        "oneAuctionLockDoesNotBlockAnother",
+        "capacityIsReleasedOnlyWhenLifecycleEnds",
+        "sqlFailureRollsBackBidExtensionAndResultTogether",
+        "concurrentRegistrationRespectsNormalizedLogin",
+        "twoEqualBidsRaceAndOnlyOneCommits",
+        "reportAndClientLogsAreDurableAndDeduplicated",
+        "cancellationAndBidShareOneSerializationOrder",
+        "unsupportedProtocolReturnsReasonAndClosesOnlyThatSocket",
+        "privateDraftStaysPrivateAfterCancelAndAdminChecks",
+        "lostResponseAfterCommitIsRecoveredWithoutSecondBid"
+      ]
+    },
+    {
+      "name": "pl.edu.bidroom.server.TlsIT",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 11.762,
+      "cases": [
+        "tlsTrustHostnameAndExpiryAreEnforced"
+      ]
+    },
+    {
+      "name": "pl.edu.bidroom.client.PendingBidsTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 1.405,
+      "cases": [
+        "restartPreservesIdentityAndOnlyMatchingAccountCanRecover",
+        "boundedBacklogAndDuplicateRecordCannotOverwriteOriginal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "launcherPid": 35224,
+  "sha256": "2EB3887B26D12E4D5D3327314B808B2AF0D26ABB7F0C94A1A9C9603DA9C1E964",
+  "pathOnlySystem32": true,
+  "cleanSecondWindowsTested": false,
+  "date": "2026-11-12",
+  "version": "1.1.1",
+  "intermediateSameVersionInstallerRejected1638": true,
+  "javaHomeUnset": true,
+  "installerExitCode": 0,
+  "bundledJvmObserved": true,
+  "connectedStateObserved": true,
+  "authorsObserved": true
+}

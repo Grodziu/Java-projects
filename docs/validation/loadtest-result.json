@@ -1,0 +1,1 @@
+{"timestamp":"2026-11-10T18:45:27.366075100Z","clients":10,"auctions":3,"seconds":30,"accepted":284,"businessRejected":16,"infrastructureErrors":0,"medianMs":19.9874,"p95Ms":155.1553,"loadDriverCpuPercentOneCore":9.864713568909039,"loadDriverHeapUsedBytes":10258400}

@@ -1,0 +1,19 @@
+BIDROOM — WYNIK AUKCJI #38
+Tytuł: Plakat PK — kolory inżynierii
+Identyfikator techniczny: 8a4b1bea-e60d-4481-a8ec-73ee1ab69352
+Wystawiający: Pracownia projektowa (#40)
+Stan: FINISHED
+Początek (UTC): 2026-11-12T17:00:05.978571Z
+Pierwotny koniec: 2026-11-12T17:01:05.978571Z
+Końcowy termin: 2026-11-12T17:01:14.013571Z
+Wygenerowano automatycznie (UTC): 2026-11-12T17:01:14.701609900Z
+
+OFERTY
+1 | Alicja • pokaz (#39) | 150 pkt | 2026-11-12T17:00:14.013571Z
+
+PRZEDŁUŻENIA
+2026-11-12T17:00:14.013571Z | {"endAt": "2026-11-12T17:01:14.013571Z", "previousEndAt": "2026-11-12T17:01:05.978571Z"}
+
+WYNIK
+Zwycięzca: Alicja • pokaz (#39)
+Cena: 150 pkt
