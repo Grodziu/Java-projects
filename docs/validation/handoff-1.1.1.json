@@ -1,0 +1,14 @@
+{
+  "sourceCommit": "c9e69e2e672f3b523c0071dc43cace268f3dc055",
+  "archiveSource": "git archive HEAD",
+  "excluded": [
+    "private configuration",
+    "database dumps",
+    "runtime client state",
+    "raw conversation"
+  ],
+  "date": "2026-11-12",
+  "archiveBuild": "SUCCESS",
+  "temporaryDirectory": "handoff-check-7698838e36404b89afeab7c00c9e8c28",
+  "additionalTestsRun": false
+}
