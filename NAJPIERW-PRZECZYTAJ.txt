@@ -27,9 +27,8 @@ pgAdmin i rekordy: docs/POSTGRESQL.md. Baza i zdjęcia są po stronie serwera.
 
 WDROŻENIE: docs/HANDOFF.md, następnie docs/DEPLOYMENT.md.
 Komputery NIE muszą być w jednej sieci. Muszą osiągać jeden serwer TCP/TLS.
-Do pokazu przez Internet przygotowany jest wariant VPS. Nikt jeszcze go nie kupił.
-Lokalny instalator łączy się z własnym komputerem, nie z komputerem Piotra.
+Do pokazu przez Internet przygotowany jest wariant VPS.
+Lokalny instalator łączy się z własnym komputerem.
 Po wdrożeniu budujesz instalator z adresem serwera i przekazujesz go uczestnikom.
 
-Sprawozdanie końcowe: Oliwia. Kod i wdrożenie: kontynuacja przez Marcina.
 Pełny stan wykonanych testów: docs/VALIDATION_RESULTS.md.
