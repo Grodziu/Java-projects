@@ -4,7 +4,7 @@ Desktopowe aukcje w wirtualnych punktach: **Java 21, JavaFX, TCP/IP z TLS, Postg
 
 Autorzy: **Piotr Grodny, Marcin Gurdziel, Oliwia Jarosz**. „Programowanie w języku Java”, Informatyka w inżynierii komputerowej, 5. semestr, grupa P1, 2026/2027. Projekt studencki, nie oficjalna aplikacja Politechniki Krakowskiej.
 
-## M.G - Zacznij tutaj
+## Zacznij tutaj
 
 1. Pobierz **cały projekt**: `git clone https://github.com/Grodziu/Java-projects.git` lub **Code → Download ZIP**, potem rozpakuj. Nie pracuj wewnątrz ZIP.
 2. Przeczytaj [NAJPIERW-PRZECZYTAJ.txt](NAJPIERW-PRZECZYTAJ.txt). Na nowym Windows x64 uruchom **0-Przygotuj-projekt.cmd** — pobierze JDK/Maven/PostgreSQL, utworzy własną bazę i zbuduje kod. Potrzebny Internet przy pierwszym przygotowaniu.
@@ -34,7 +34,5 @@ Na laptopie dane i narzędzia są w **`%USERPROFILE%/BidRoomData`**, poza repozy
 ## Stan przekazania
 
 Zaimplementowano i lokalnie sprawdzono pełny przepływ: konta i role, zdjęcia przedmiotów, wiele aukcji, równoczesne oferty, transakcje i ponawianie bez duplikatów, przedłużanie czasu, reconnect, automatyczne raporty oraz panel administratora z rzeczywistymi wątkami. Szczegółowe wyniki testów są w rejestrze weryfikacji.
-
-**Do wykonania przez Marcina:** wdrożenie na osiągalnym serwerze, docelowy certyfikat/host, przebudowanie instalatora internetowego i wspólna próba z dwóch różnych sieci oraz na drugim Windows. Przygotowane skrypty nie zastępują tego odbioru. **Sprawozdanie końcowe przygotowuje Oliwia.** Podsumowanie kontekstu jest w HANDOFF, zamiast prywatnego zapisu rozmowy.
 
 [START_HERE.md](START_HERE.md) i [AGENTS.md](AGENTS.md) zawierają szczegółowe instrukcje kontynuowania implementacji.
