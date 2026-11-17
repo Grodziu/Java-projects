@@ -45,10 +45,6 @@ Pakiet pierwotnie powstał jako przygotowanie informacji. Następne polecenie u�
 5. Najpierw uruchom przepływ TCP klient → serwer → odpowiedź, a następnie rejestrację i logowanie z bazą. Nie zaczynaj od rozbudowanej makiety bez działającego serwera.
 6. Realizuj [plan](docs/IMPLEMENTATION_PLAN.md) dalej, bez traktowania samego szkieletu jako ukończonego projektu.
 
-## Co jest, a czego jeszcze nie ma
+## Co jest w obecnym projekcie
 
 Gotowe: specyfikacja i materiały źródłowe, moduły aplikacji, migracja SQL, testy automatyczne, skrypty lokalnego środowiska, pomiar obciążenia, pokaz JavaFX oraz budowanie instalatora. Szczegółowy aktualny stan i warunki testów znajdują się w rejestrze weryfikacji.
-
-Osobnym przyszłym etapem pozostaje rzeczywiste wdrożenie publiczne przez Marcina. Ograniczeń odbioru na drugim/czystym Windows nie wolno zastępować fikcyjnymi potwierdzeniami.
-
-Hosting i domena nie blokują lokalnego kodowania. Nazwiska autorów są podane powyżej. Nie przedstawiaj lokalnego testu jako publicznego wdrożenia. Zgodnie z poleceniem 12.11.2026 nie kontynuuj pisania sprawozdania — to zadanie Oliwii.
